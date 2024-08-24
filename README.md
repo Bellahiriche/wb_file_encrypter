@@ -1,10 +1,14 @@
-This script provides a command-line tool for file encryption and decryption using the Fernet encryption algorithm from the cryptography library. It allows users to generate encryption keys, encrypt files, and decrypt files using those keys.
+This script provides a command-line tool for file encryption and decryption using the Fernet encryption algorithm from the cryptography library. It allows users 
+to generate encryption keys, encrypt files, and decrypt files using those keys.
 
 Key Features:
+
 Generate Key: Creates a new symmetric key for encryption.
 Encrypt File: Encrypts the contents of a file.
 Decrypt File: Decrypts an encrypted file.
+
 How to Use:
+
 Generate a Key:
 
 python script.py generate_key <key_file>
